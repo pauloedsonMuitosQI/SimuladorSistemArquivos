@@ -12,13 +12,13 @@ O gerenciamento eficiente de arquivos é crucial para o funcionamento dos sistem
 
 Desenvolver um simulador de sistema de arquivos em Java que implemente funcionalidades básicas de manipulação de arquivos e diretórios, com suporte a Journaling para garantir a integridade dos dados. Este simulador permite a criação de um arquivo que simula o sistema de arquivos (`base.dat`) e realizar operações como:
 
-*   Copiar arquivos e diretórios (`cp`)
-*   Apagar arquivos e diretórios (`rm`)
-*   Renomear arquivos e diretórios (`mv`)
-*   Criar diretórios (`mkdir`)
-*   Criar arquivos (`touch`)
-*   Listar o conteúdo de um diretório (`ls`)
-*   Mudar de diretório (`cd`)
+* Copiar arquivos e diretórios (`copiar_arquivo`)
+* Apagar arquivos e diretórios (`apagar_arquivo`)
+* Renomear arquivos e diretórios (`renomear_arquivo`)
+* Criar diretórios (`criar_diretorio`)
+* Criar arquivos (`criar_arquivo`)
+* Listar o conteúdo de um diretório (`listar`)
+* Mudar de diretório (`cd`)
 
 ## Metodologia
 
